@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #ddd;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  padding: 20px;
+  z-index: 999;
+  /* align-items: center; */
+}
+.logo {
+  position: absolute;
+  color: #3a6cf4;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  left: 100px;
+  top: 20px;
+}
+.navigation {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+}
+.navigation a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #3a6cf4;
+  margin-left: 100px;
+  font-weight: 400;
+  opacity: 0.8;
+  transition: all 0.5s linear;
+}
+.navigation a:hover {
+  opacity: 1;
+  color: #601cfc;
+}
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("image/1645003668940.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+.main h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+.main h2 span {
+  display: inline-block;
+  color: #4c9cff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.main h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.main-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #3a6cf4;
+  font-size: 25px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 25px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  transition: all 0.4s ease;
+}
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+  color: white;
+}
+.social-icons i {
+  color: white;
+  font-size: 30px;
+  padding-right: 40px;
+  transition: all 0.3s ease;
+}
+.social-icons i:hover {
+  transform: scale(1.3);
+  color: #601cfc;
+}
+
+/*cards services*/
+.cards {
+  border-bottom: 2px solid rgba(192, 186, 186, 0.521);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex: wrap;
+}
+.card {
+  background-color: #fff;
+  width: 400px;
+  box-shadow: 0 5px 25px gray;
+  padding: 25px;
+  margin: 15px;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card .icon {
+  color: #3a6cf4;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card .info h3 {
+  color: #3a6cf4;
+  margin: 10px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.card .info {
+  text-align: center;
+}
+.card .info p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*    project cards        */
+
+.projects h2 {
+  margin-bottom: 100px;
+}
+
+.project-card {
+  position: relative;
+  background-color: white;
+  width: 500px;
+  box-shadow: 0 5px 25px gray;
+  overflow: hidden;
+  min-height: 400px;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 50px;
+  transition: all 0.5s ease;
+}
+.project-card:hover {
+  transform: scale(1.1);
+}
+.project-card .project-image img {
+  width: 100%;
+}
+
+.project-card .project-info {
+  padding: 30px;
+}
+.project-info h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #4c9cff;
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.project-info h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.btn-primary {
+  width: 100%;
+  opacity: 0.6;
+}
+.btn-primary:hover {
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+.projects {
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgba(192, 186, 186, 0.521);
+}
+
+/*   Content    */
+
+.contact .icon {
+  font-size: 60px;
+}
+
+/*   footer    */
+.footer {
+  background-color: #000016;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 100px 0 50px gray;
+}
+.footer .footer-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.footer .footer-title span {
+  color: #0a49f6;
+  font-size: 22px;
+  font-weight: 900;
+}
+.footer .social-icons i {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1222px) {
+  header {
+    padding: 10px 20px;
+  }
+  .navigation a {
+    margin-left: 10px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  section {
+    padding: 70px 20px;
+  }
+  .main h2 {
+    font-size: 15px;
+  }
+  .main h2 span {
+    font-size: 25px;
+  }
+  .main h3 {
+    font-size: 12px;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .project-card {
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .footer .social-icons i {
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 641px) {
+  .main h2 {
+    font-size: 10px;
+  }
+  .main h3 {
+    font-size: 9px;
+  }
+}
